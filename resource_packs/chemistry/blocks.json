@@ -1,0 +1,525 @@
+{
+  "chemistry_table": {
+    "blockshape": "chemistry_table",
+    "textures": { "up": "chemistry_table_top", "down": "chemistry_table_bottom", "north": "chemistry_table_north",  "south": "chemistry_table_south", "west": "chemistry_table_west", "east": "chemistry_table_east" },
+    "sound": "stone"
+  },
+  "element_0": {
+    "textures": "element_label_0",
+    "blockshape": "element_block"
+  },
+  "element_1": {
+    "textures": "element_label_1",
+    "blockshape": "element_block"
+  },
+  "element_2": {
+    "textures": "element_label_2",
+    "blockshape": "element_block"
+  },
+  "element_3": {
+    "textures": "element_label_3",
+    "blockshape": "element_block"
+  },
+  "element_4": {
+    "textures": "element_label_4",
+    "blockshape": "element_block"
+  },
+  "element_5": {
+    "textures": "element_label_5",
+    "blockshape": "element_block"
+  },
+  "element_6": {
+    "textures": "element_label_6",
+    "blockshape": "element_block"
+  },
+  "element_7": {
+    "textures": "element_label_7",
+    "blockshape": "element_block"
+  },
+  "element_8": {
+    "textures": "element_label_8",
+    "blockshape": "element_block"
+  },
+  "element_9": {
+    "textures": "element_label_9",
+    "blockshape": "element_block"
+  },
+  "element_10": {
+    "textures": "element_label_10",
+    "blockshape": "element_block"
+  },
+  "element_11": {
+    "textures": "element_label_11",
+    "blockshape": "element_block"
+  },
+  "element_12": {
+    "textures": "element_label_12",
+    "blockshape": "element_block"
+  },
+  "element_13": {
+    "textures": "element_label_13",
+    "blockshape": "element_block"
+  },
+  "element_14": {
+    "textures": "element_label_14",
+    "blockshape": "element_block"
+  },
+  "element_15": {
+    "textures": "element_label_15",
+    "blockshape": "element_block"
+  },
+  "element_16": {
+    "textures": "element_label_16",
+    "blockshape": "element_block"
+  },
+  "element_17": {
+    "textures": "element_label_17",
+    "blockshape": "element_block"
+  },
+  "element_18": {
+    "textures": "element_label_18",
+    "blockshape": "element_block"
+  },
+  "element_19": {
+    "textures": "element_label_19",
+    "blockshape": "element_block"
+  },
+  "element_20": {
+    "textures": "element_label_20",
+    "blockshape": "element_block"
+  },
+  "element_21": {
+    "textures": "element_label_21",
+    "blockshape": "element_block"
+  },
+  "element_22": {
+    "textures": "element_label_22",
+    "blockshape": "element_block"
+  },
+  "element_23": {
+    "textures": "element_label_23",
+    "blockshape": "element_block"
+  },
+  "element_24": {
+    "textures": "element_label_24",
+    "blockshape": "element_block"
+  },
+  "element_25": {
+    "textures": "element_label_25",
+    "blockshape": "element_block"
+  },
+  "element_26": {
+    "textures": "element_label_26",
+    "blockshape": "element_block"
+  },
+  "element_27": {
+    "textures": "element_label_27",
+    "blockshape": "element_block"
+  },
+  "element_28": {
+    "textures": "element_label_28",
+    "blockshape": "element_block"
+  },
+  "element_29": {
+    "textures": "element_label_29",
+    "blockshape": "element_block"
+  },
+  "element_30": {
+    "textures": "element_label_30",
+    "blockshape": "element_block"
+  },
+  "element_31": {
+    "textures": "element_label_31",
+    "blockshape": "element_block"
+  },
+  "element_32": {
+    "textures": "element_label_32",
+    "blockshape": "element_block"
+  },
+  "element_33": {
+    "textures": "element_label_33",
+    "blockshape": "element_block"
+  },
+  "element_34": {
+    "textures": "element_label_34",
+    "blockshape": "element_block"
+  },
+  "element_35": {
+    "textures": "element_label_35",
+    "blockshape": "element_block"
+  },
+  "element_36": {
+    "textures": "element_label_36",
+    "blockshape": "element_block"
+  },
+  "element_37": {
+    "textures": "element_label_37",
+    "blockshape": "element_block"
+  },
+  "element_38": {
+    "textures": "element_label_38",
+    "blockshape": "element_block"
+  },
+  "element_39": {
+    "textures": "element_label_39",
+    "blockshape": "element_block"
+  },
+  "element_40": {
+    "textures": "element_label_40",
+    "blockshape": "element_block"
+  },
+  "element_41": {
+    "textures": "element_label_41",
+    "blockshape": "element_block"
+  },
+  "element_42": {
+    "textures": "element_label_42",
+    "blockshape": "element_block"
+  },
+  "element_43": {
+    "textures": "element_label_43",
+    "blockshape": "element_block"
+  },
+  "element_44": {
+    "textures": "element_label_44",
+    "blockshape": "element_block"
+  },
+  "element_45": {
+    "textures": "element_label_45",
+    "blockshape": "element_block"
+  },
+  "element_46": {
+    "textures": "element_label_46",
+    "blockshape": "element_block"
+  },
+  "element_47": {
+    "textures": "element_label_47",
+    "blockshape": "element_block"
+  },
+  "element_48": {
+    "textures": "element_label_48",
+    "blockshape": "element_block"
+  },
+  "element_49": {
+    "textures": "element_label_49",
+    "blockshape": "element_block"
+  },
+  "element_50": {
+    "textures": "element_label_50",
+    "blockshape": "element_block"
+  },
+  "element_51": {
+    "textures": "element_label_51",
+    "blockshape": "element_block"
+  },
+  "element_52": {
+    "textures": "element_label_52",
+    "blockshape": "element_block"
+  },
+  "element_53": {
+    "textures": "element_label_53",
+    "blockshape": "element_block"
+  },
+  "element_54": {
+    "textures": "element_label_54",
+    "blockshape": "element_block"
+  },
+  "element_55": {
+    "textures": "element_label_55",
+    "blockshape": "element_block"
+  },
+  "element_56": {
+    "textures": "element_label_56",
+    "blockshape": "element_block"
+  },
+  "element_57": {
+    "textures": "element_label_57",
+    "blockshape": "element_block"
+  },
+  "element_58": {
+    "textures": "element_label_58",
+    "blockshape": "element_block"
+  },
+  "element_59": {
+    "textures": "element_label_59",
+    "blockshape": "element_block"
+  },
+  "element_60": {
+    "textures": "element_label_60",
+    "blockshape": "element_block"
+  },
+  "element_61": {
+    "textures": "element_label_61",
+    "blockshape": "element_block"
+  },
+  "element_62": {
+    "textures": "element_label_62",
+    "blockshape": "element_block"
+  },
+  "element_63": {
+    "textures": "element_label_63",
+    "blockshape": "element_block"
+  },
+  "element_64": {
+    "textures": "element_label_64",
+    "blockshape": "element_block"
+  },
+  "element_65": {
+    "textures": "element_label_65",
+    "blockshape": "element_block"
+  },
+  "element_66": {
+    "textures": "element_label_66",
+    "blockshape": "element_block"
+  },
+  "element_67": {
+    "textures": "element_label_67",
+    "blockshape": "element_block"
+  },
+  "element_68": {
+    "textures": "element_label_68",
+    "blockshape": "element_block"
+  },
+  "element_69": {
+    "textures": "element_label_69",
+    "blockshape": "element_block"
+  },
+  "element_70": {
+    "textures": "element_label_70",
+    "blockshape": "element_block"
+  },
+  "element_71": {
+    "textures": "element_label_71",
+    "blockshape": "element_block"
+  },
+  "element_72": {
+    "textures": "element_label_72",
+    "blockshape": "element_block"
+  },
+  "element_73": {
+    "textures": "element_label_73",
+    "blockshape": "element_block"
+  },
+  "element_74": {
+    "textures": "element_label_74",
+    "blockshape": "element_block"
+  },
+  "element_75": {
+    "textures": "element_label_75",
+    "blockshape": "element_block"
+  },
+  "element_76": {
+    "textures": "element_label_76",
+    "blockshape": "element_block"
+  },
+  "element_77": {
+    "textures": "element_label_77",
+    "blockshape": "element_block"
+  },
+  "element_78": {
+    "textures": "element_label_78",
+    "blockshape": "element_block"
+  },
+  "element_79": {
+    "textures": "element_label_79",
+    "blockshape": "element_block"
+  },
+  "element_80": {
+    "textures": "element_label_80",
+    "blockshape": "element_block"
+  },
+  "element_81": {
+    "textures": "element_label_81",
+    "blockshape": "element_block"
+  },
+  "element_82": {
+    "textures": "element_label_82",
+    "blockshape": "element_block"
+  },
+  "element_83": {
+    "textures": "element_label_83",
+    "blockshape": "element_block"
+  },
+  "element_84": {
+    "textures": "element_label_84",
+    "blockshape": "element_block"
+  },
+  "element_85": {
+    "textures": "element_label_85",
+    "blockshape": "element_block"
+  },
+  "element_86": {
+    "textures": "element_label_86",
+    "blockshape": "element_block"
+  },
+  "element_87": {
+    "textures": "element_label_87",
+    "blockshape": "element_block"
+  },
+  "element_88": {
+    "textures": "element_label_88",
+    "blockshape": "element_block"
+  },
+  "element_89": {
+    "textures": "element_label_89",
+    "blockshape": "element_block"
+  },
+  "element_90": {
+    "textures": "element_label_90",
+    "blockshape": "element_block"
+  },
+  "element_91": {
+    "textures": "element_label_91",
+    "blockshape": "element_block"
+  },
+  "element_92": {
+    "textures": "element_label_92",
+    "blockshape": "element_block"
+  },
+  "element_93": {
+    "textures": "element_label_93",
+    "blockshape": "element_block"
+  },
+  "element_94": {
+    "textures": "element_label_94",
+    "blockshape": "element_block"
+  },
+  "element_95": {
+    "textures": "element_label_95",
+    "blockshape": "element_block"
+  },
+  "element_96": {
+    "textures": "element_label_96",
+    "blockshape": "element_block"
+  },
+  "element_97": {
+    "textures": "element_label_97",
+    "blockshape": "element_block"
+  },
+  "element_98": {
+    "textures": "element_label_98",
+    "blockshape": "element_block"
+  },
+  "element_99": {
+    "textures": "element_label_99",
+    "blockshape": "element_block"
+  },
+  "element_100": {
+    "textures": "element_label_100",
+    "blockshape": "element_block"
+  },
+  "element_101": {
+    "textures": "element_label_101",
+    "blockshape": "element_block"
+  },
+  "element_102": {
+    "textures": "element_label_102",
+    "blockshape": "element_block"
+  },
+  "element_103": {
+    "textures": "element_label_103",
+    "blockshape": "element_block"
+  },
+  "element_104": {
+    "textures": "element_label_104",
+    "blockshape": "element_block"
+  },
+  "element_105": {
+    "textures": "element_label_105",
+    "blockshape": "element_block"
+  },
+  "element_106": {
+    "textures": "element_label_106",
+    "blockshape": "element_block"
+  },
+  "element_107": {
+    "textures": "element_label_107",
+    "blockshape": "element_block"
+  },
+  "element_108": {
+    "textures": "element_label_108",
+    "blockshape": "element_block"
+  },
+  "element_109": {
+    "textures": "element_label_109",
+    "blockshape": "element_block"
+  },
+  "element_110": {
+    "textures": "element_label_110",
+    "blockshape": "element_block"
+  },
+  "element_111": {
+    "textures": "element_label_111",
+    "blockshape": "element_block"
+  },
+  "element_112": {
+    "textures": "element_label_112",
+    "blockshape": "element_block"
+  },
+  "element_113": {
+    "textures": "element_label_113",
+    "blockshape": "element_block"
+  },
+  "element_114": {
+    "textures": "element_label_114",
+    "blockshape": "element_block"
+  },
+  "element_115": {
+    "textures": "element_label_115",
+    "blockshape": "element_block"
+  },
+  "element_116": {
+    "textures": "element_label_116",
+    "blockshape": "element_block"
+  },
+  "element_117": {
+    "textures": "element_label_117",
+    "blockshape": "element_block"
+  },
+  "element_118": {
+    "textures": "element_label_118",
+    "blockshape": "element_block"
+  },
+  "underwater_torch": {
+    "blockshape" : "torch",
+    "textures" : "underwater_torch", 
+    "sound": "wood"
+  },
+  "hard_glass" : {
+    "textures" : "hard_glass",
+    "sound": "glass"
+  },
+  "hard_stained_glass": {
+    "textures" : "hard_stained_glass",
+    "sound": "glass"
+  },
+  "hard_stained_glass_pane" : {
+    "blockshape" : "double_side_fence",
+    "textures" : { "up" : "hard_stained_glass", "down" : "hard_stained_glass", "north" : "hard_stained_glass",  "south" : "hard_stained_glass", "west" : "hard_stained_glass",  "east" : "stained_glass_pane_top"},
+    "sound": "glass"
+  },
+  "hard_glass_pane" : {
+    "blockshape" : "double_side_fence",
+    "textures" : { "up" : "hard_glass", "down" : "hard_glass", "north" : "hard_glass",  "south" : "hard_glass", "west" : "hard_glass",  "east" : "glass_pane_top"},
+    "sound": "glass"
+  },
+  "chemical_heat" : {
+    "blockshape" : "slime_block",
+    "textures": "chemical_heat",
+    "sound": "stone"
+  },
+  "colored_torch_rg" : { 
+    "blockshape" : "torch",
+    "textures" : "colored_torch",
+    "sound": "wood"
+  },
+  "colored_torch_bp" : { 
+    "blockshape" : "torch",
+    "textures" : "colored_torch",
+    "sound": "wood"
+  },
+  "glow_stick": {
+    "blockshape": "glow_stick",
+    "textures": "glow_stick"
+  }
+}
