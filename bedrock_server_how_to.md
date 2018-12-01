@@ -17,7 +17,7 @@
 
 ## Disclaimer(免责声明)
 
-    This is an early release (alpha) which we don't fully support yet. It might contain severe issues and we could stop supporting it at any time. 
+​	This is an early release (alpha) which we don't fully support yet. It might contain severe issues and we could stop supporting it at any time. 
 
 （这是一个我们还没有完全支持的早期版本(alpha)。它可能包含严重的问题，我们可以在任何时候停止支持它。）    
 
@@ -25,7 +25,7 @@
 
 ### Linux
 
-    Unzip the container file into an empty folder. Start the server with the following command:     
+​	Unzip the container file into an empty folder. Start the server with the following command:     
 
 （将容器文件解压缩到空文件夹中，使用以下命令启动服务器：）
 
