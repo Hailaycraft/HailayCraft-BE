@@ -43,7 +43,7 @@ LD_LIBRARY_PATH=. ./bedrock_server
 
 ​        On some systems, when you wish to connect to the server using a client running on the same machine as the server is running on, you will need to exempt the Minecraft client from UWP loopback restrictions:  
 
-（在某些系统上，当您希望使用运行在与服务器相同机器上的客户端连接到服务器时，您需要去除Minecraft客户端受UWP回路限制）        
+（在某些系统中，当你希望使用在服务器运行的计算机上，同时运行客户端连接服务器，你需要去除来自客户端UWP的回路限制）        
 
 ```
 CheckNetIsolation.exe LoopbackExempt –a –p=S-1-15-2-1958404141-86561845-1752920682-3514627264-368642714-62675701-733520436
