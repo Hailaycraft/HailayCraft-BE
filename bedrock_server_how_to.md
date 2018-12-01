@@ -27,7 +27,7 @@
 
 ​	Unzip the container file into an empty folder. Start the server with the following command:     
 
-（将容器文件解压缩到空文件夹中，使用以下命令启动服务器：）
+（将压缩包解压缩到空文件夹中，使用以下命令启动服务器：）
 
 ```
 LD_LIBRARY_PATH=. ./bedrock_server 
