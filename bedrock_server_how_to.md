@@ -10,11 +10,14 @@
 >
 > PS3：先声明，有些地方实在是译者也不理解，如果读者按照我的理解在服务器中做出不可挽回的损失，这与作者无关！请自行试验过服务端再运行与生产环境。
 >
+> **协议**： CC BY-NC-ND 3.0 CN
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/cn/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/">知识共享署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议</a>进行许可。
+>
 > 2018.12.1 Sunday 晚，Hailay于 Guangzhou。
 
 ## Disclaimer(免责声明)
 
-​        This is an early release (alpha) which we don't fully support yet. It might contain severe issues and we could stop supporting it at any time. 
+    This is an early release (alpha) which we don't fully support yet. It might contain severe issues and we could stop supporting it at any time. 
 
 （这是一个我们还没有完全支持的早期版本(alpha)。它可能包含严重的问题，我们可以在任何时候停止支持它。）    
 
@@ -22,11 +25,15 @@
 
 ### Linux
 
-​        Unzip the container file into an empty folder. Start the server with the following command:     
+    Unzip the container file into an empty folder. Start the server with the following command:     
 
 （将容器文件解压缩到空文件夹中，使用以下命令启动服务器：）
 
-> ​        LD_LIBRARY_PATH=. ./bedrock_server     
+```
+LD_LIBRARY_PATH=. ./bedrock_server 
+```
+
+
 
 ### Windows
 
@@ -38,7 +45,11 @@
 
 （在某些系统上，当您希望使用运行在与服务器相同机器上的客户端连接到服务器时，您需要去除Minecraft客户端受UWP回路限制）        
 
-> CheckNetIsolation.exe LoopbackExempt –a –p=S-1-15-2-1958404141-86561845-1752920682-3514627264-368642714-62675701-733520436
+```
+CheckNetIsolation.exe LoopbackExempt –a –p=S-1-15-2-1958404141-86561845-1752920682-3514627264-368642714-62675701-733520436
+```
+
+
 
 ## Configuration（配置）
 
@@ -76,7 +87,7 @@
 ### Example `server.properties` file（例子）
 
  ```yaml
-   server-name=Dedicated Server
+    server-name=Dedicated Server
     gamemode=survival
     difficulty=easy
     allow-cheats=false
@@ -95,7 +106,7 @@
 
 ## Folders
 
-​        When unpacking you will see a few folders and the binary executable. When starting the server for the first time a bunch of new (empty) folders will be created. The folders you should care about are the following: 
+    When unpacking you will see a few folders and the binary executable. When starting the server for the first time a bunch of new (empty) folders will be created. The folders you should care about are the following: 
 
 （解压时，您将看到一些文件夹和二进制可执行文件。当首次启动服务器时，将创建一些新的(空的)文件夹。您应该关心的文件夹如下：）    
 
