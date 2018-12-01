@@ -1,53 +1,69 @@
 # How to use the dedicated server
 
-## Disclaimer
+> **翻译**：MilkMC Hailay
 
-​        This is an early release (alpha) which we don't fully support yet. It might contain severe issues and we could stop supporting it at any time.     
+## Disclaimer(免责声明)
 
-## Platforms
+​        This is an early release (alpha) which we don't fully support yet. It might contain severe issues and we could stop supporting it at any time. 
+
+（这是一个我们还没有完全支持的早期版本(alpha)。它可能包含严重的问题，我们可以在任何时候停止支持它。）    
+
+## Platforms（平台）
 
 ### Linux
 
 ​        Unzip the container file into an empty folder. Start the server with the following command:     
 
+（将容器文件解压缩到空文件夹中，使用以下命令启动服务器：）
+
 > ​        LD_LIBRARY_PATH=. ./bedrock_server     
 
 ### Windows
 
-​        Unzip the container file into an empty folder. Start the server by executing the `bedrock_server.exe` file.     
+​        Unzip the container file into an empty folder. Start the server by executing the `bedrock_server.exe` file.   
 
-​        On some systems, when you wish to connect to the server using a client running on the same machine as the        server is running on, you will need to exempt the Minecraft client from UWP loopback restrictions:          
+（将容器文件解压缩到空文件夹中，通过执行`bedrock_server.exe` 文件启动服务器。）  
+
+​        On some systems, when you wish to connect to the server using a client running on the same machine as the server is running on, you will need to exempt the Minecraft client from UWP loopback restrictions:  
+
+（在某些系统上，当您希望使用运行在与服务器相同机器上的客户端连接到服务器时，您需要去除Minecraft客户端受UWP回路限制）        
 
 > CheckNetIsolation.exe LoopbackExempt –a –p=S-1-15-2-1958404141-86561845-1752920682-3514627264-368642714-62675701-733520436
 
-## Configuration
+## Configuration（配置）
 
 ​        The server will try to read a file named `server.properties`. Some of these options are only read when a new world is created, while some others are read every startup. The file should contain a list with keys and values separated with an equal sign, one per line.     
 
-​        The following options are available. If a value as a number in parenthesis, that number can be used instead of the text value.     
+（服务器将尝试读取一个名为`server.properties`的文件。其中一些选项只在创建新世界时读取，而其他一些选项则在每次启动时读取。文件应该包含一个变量和用等号分隔的值的列表，每个变量对应一个值）
 
-| Option name                     | Possible values                              | Default value    | When is it used                | Notes                                                        |
-| ------------------------------- | -------------------------------------------- | ---------------- | ------------------------------ | ------------------------------------------------------------ |
-| gamemode                        | survival (0), creative (1), adventure (2)    | survival         | Always or only for new players |                                                              |
-| difficulty                      | peaceful (0), easy (1), normal (2), hard (3) | easy             | Always                         |                                                              |
-| level-type                      | FLAT, LEGACY, DEFAULT                        | DEFAULT          | World creation                 |                                                              |
-| server-name                     | Any string                                   | Dedicated Server | Always                         | This is the server name shown in the in-game server list.    |
-| max-players                     | Any integer                                  | 10               | Always                         | The maximum numbers of players that should be able to play on the server. **Higher values have performance impact.** |
-| server-port                     | Any integer                                  | 19132            | Always                         |                                                              |
-| server-portv6                   | Any integer                                  | 19133            | Always                         |                                                              |
-| level-name                      | Any string                                   | level            | Always                         | The name of level to be used/generated. Each level has its own folder in `/worlds`. |
-| level-seed                      | Any string                                   |                  | World creation                 | The seed to be used for randomizing the world. If left empty a seed will be chosen at random. |
-| online-mode                     | true, false                                  | true             | Always                         | If true then all connected players must be authenticated to Xbox Live.                    Clients connecting to remote (non-LAN) servers will always require Xbox Live authentication regardless of this setting.                    If the server accepts connections from the Internet, then it's **highly** recommended to enable online-mode. |
-| white-list                      | true, false                                  | false            | Always                         | If true then all connected players must be listed in the separate `whitelist.json` file.                            See the *Whitelist* section. |
-| allow-cheats                    | true, false                                  | false            | Always                         |                                                              |
-| view-distance                   | Any integer                                  | 10               | Always                         | The maximum allowed view distance. **Higher values have performance impact.** |
-| player-idle-timeout             | Any integer                                  | 30               | Always                         | After a player has idled for this many minutes they will be kicked. If set to 0 then players can idle indefinitely. |
-| max-threads                     | Any integer                                  | 8                | Always                         | Maximum number of threads the server will try to use.        |
-| tick-distance                   | An integer in the range [4, 12]              | 4                | Always                         | The world will be ticked this many chunks away from any player. **Higher values have performance impact.** |
-| default-player-permission-level | visitor, member, operator                    | member           | Always                         | Which permission level new players will have when they join for the first time. |
-| texturepack-required            | true, false                                  | false            | Always                         | If the world uses any specific texture packs then this setting will force the client to use it. |
+（配置文件中每一行一个变量，同JE服）
 
-### Example server.properties file
+​        The following options are available. If a value as a number in parenthesis, that number can be used instead of the text value.
+
+（以下选项是可用的。如果一个值在括号中是一个数字，那么这个数字可以用来代替文本值）     
+
+| Option name（选项名称）         | Possible values（可选值）                                    | Default value（默认值）                      | When is it used（ 什么时候使用） | Notes                                                        |
+| ------------------------------- | ------------------------------------------------------------ | -------------------------------------------- | -------------------------------- | ------------------------------------------------------------ |
+| gamemode                        | survival (0), creative (1), adventure (2)                    | survival                                     | Always or only for new players   | 游戏模式：0生存、1创造、2冒险                                |
+| difficulty                      | peaceful (0), easy (1), normal (2), hard (3)                 | easy                                         | Always                           | 游戏难度：0和平、1简单、2正常（普通）、3困难                 |
+| level-type                      | FLAT, LEGACY, DEFAULT                                        | DEFAULT                                      | World creation                   | 世界类型：平坦、**（？）**、默认                             |
+| server-name                     | Any string（任意字符串）                                     | Dedicated Server（默认为“Dedicated Server”） | Always                           | This is the server name shown in the in-game server list.（ 这是游戏内服务器列表中显示的服务器名称。） |
+| max-players                     | Any integer（任何整数）                                      | 10（默认10人）                               | Always                           | The maximum numbers of players that should be able to play on the server. **Higher values have performance impact.**（ 能够在服务器上运行的最大玩家数量，较高的值会影响性能。） |
+| server-port                     | Any integer                                                  | 19132                                        | Always                           | 服务器Ipv4端口，默认19132                                    |
+| server-portv6                   | Any integer                                                  | 19133                                        | Always                           | Ipv6端口（PS：估计也没什么人用吧）                           |
+| level-name                      | Any string                                                   | level                                        | Always                           | The name of level to be used/generated. Each level has its own folder in `/worlds`.（地图的名字，在目录`/worlds`下显示） |
+| level-seed                      | Any string                                                   |                                              | World creation                   | The seed to be used for randomizing the world. If left empty a seed will be chosen at random.（ 用来随机化世界的种子。如果空着，种子将被随机选择。） |
+| online-mode                     | true, false                                                  | true                                         | Always                           | If true then all connected players must be authenticated to Xbox Live.                    Clients connecting to remote (non-LAN) servers will always require Xbox Live authentication regardless of this setting.                    If the server accepts connections from the Internet, then it's **highly** recommended to enable online-mode. （ **联机模式**：如果值为true，那么所有连接的玩家都必须通过Xbox Live的认证。无论如何，连接到远程(非局域网)服务器的客户端都需要Xbox Live身份验证。如果服务器接受来自Internet的连接，那么强烈建议启用联机模式。） |
+| white-list                      | true, false                                                  | false                                        | Always                           | If true then all connected players must be listed in the separate `whitelist.json` file.                            See the *Whitelist* section.（ **白名单**如果值为真，那么所有连接的玩家必须在白名单列表中`whitelist.json`。更多参见下面*Whitelist*小节。） |
+| allow-cheats                    | true, false                                                  | false                                        | Always                           | 是否允许作弊                                                 |
+| view-distance                   | Any integer                                                  | 10                                           | Always                           | The maximum allowed view distance. **Higher values have performance impact.**（**视距**： 允许的最大视距，较高的值会影响性能。） |
+| player-idle-timeout             | Any integer                                                  | 30                                           | Always                           | After a player has idled for this many minutes they will be kicked. If set to 0 then players can idle indefinitely.（ **暂停时间**：当一个玩家暂停（摸鱼）了player-idle-timeout分钟后，他们将被踢。如果设置为0，那么玩家可以无限摸鱼（雾）。） |
+| max-threads                     | Any integer                                                  | 8                                            | Always                           | Maximum number of threads the server will try to use.（ 服务器将尝试使用的**最大线程数**。） |
+| tick-distance                   | An integer in the range [4, 12]（取值为4~12内的整数（PS：我看到了什么？？区间？高中数学必修一了解一手）） | 4                                            | Always                           | The world will be ticked this many chunks away from any player. **Higher values have performance impact.**（**区块卸载**：玩家加载的区块数超过此值将会被卸载，更高的值会留存更多的区块，所以较高的值会影响性能。（PS：这个不是很懂，请大佬解释）） |
+| default-player-permission-level | visitor, member, operator                                    | member                                       | Always                           | Which permission level new players will have when they join for the first time.（ **默认玩家权限**：当新玩家第一次加入时，他们将拥的权限级别。观察者、玩家、管理员） |
+| texturepack-required            | true, false                                                  | false                                        | Always                           | If the world uses any specific texture packs then this setting will force the client to use it.（ 如果开启，则会强迫客户端使用与服务端一样的纹理包） |
+
+### Example `server.properties` file
 
 > ​        server-name=Dedicated Server
 >         gamemode=survival

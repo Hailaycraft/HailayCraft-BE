@@ -149,7 +149,9 @@
                 <td>true, false</td>
                 <td>true</td>
                 <td>Always</td>
-                <td>If true then all connected players must be authenticated to Xbox Live.</td>
+                <td>If true then all connected players must be authenticated to Xbox Live.
+                    Clients connecting to remote (non-LAN) servers will always require Xbox Live authentication regardless of this setting.
+                    If the server accepts connections from the Internet, then it's <b>highly</b> recommended to enable online-mode.</td>
             </tr>
             <tr>
                 <td>white-list</td>
@@ -178,7 +180,7 @@
                 <td>Any integer</td>
                 <td>30</td>
                 <td>Always</td>
-                <td>After a player has idled for this many minutes they will be kicked.</td>
+                <td>After a player has idled for this many minutes they will be kicked. If set to 0 then players can idle indefinitely.</td>
             </tr>
             <tr>
                 <td>max-threads</td>
