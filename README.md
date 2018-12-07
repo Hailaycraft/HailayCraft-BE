@@ -14,7 +14,7 @@
   * be.mc.hailay.site
   * be.milkmc.net
 * **服务器管理**  
-  * **ssh** 用ssh工具进入终端后输入***screen -x***进入服务器后台
+  * **ssh** 用ssh工具进入终端后输入`screen -x`进入服务器后台
 
 ---
 * **协议**： CC BY-NC-ND 3.0 CN 
